@@ -30,7 +30,7 @@ ul{
 
 /* Header */
 .header{
-    background-color: var(--black);
+    background-color: #D9A05B;
     box-shadow: 1px 1px 5px 0px var(--grey);
     position: sticky;
     top: 0;
@@ -40,10 +40,11 @@ ul{
 /* Logo */
 .logo{
     display: inline-block;
-    color: var(--white);
-    font-size: 60px;
     margin-left: 10px;
+}
 
+.logo img {
+    width: 80px;
 }
 
 /* Nav menu */
@@ -51,20 +52,19 @@ ul{
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: var(--black);
+    background-color: #D9A05B;
     overflow: hidden;
     
 }
 
 .menu a{
     display: block;
-    padding: 30px;
+    padding: 30px 30px;
     color: var(--white);
-
 }
 
 .menu a:hover{
-    background-color: var(--grey);
+    background-color: #A65221;
 }
 
 .nav{
@@ -155,7 +155,7 @@ ul{
 
     .menu a:hover{
         background-color: transparent;
-        color: var(--grey);
+        color: #A65221;
         
     }
     
