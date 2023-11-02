@@ -81,6 +81,11 @@ p {
     line-height: 38px;
 }
 
+/* Container */
+.container {
+    position: inherit;
+}
+
 /* Header */
 .header{
     background-color: #D9A05B;
@@ -239,6 +244,35 @@ p {
     
     .hamb{
         display: none;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+    
+    #hero {
+        height: 250px;
+        background-position: top;
+    }
+
+    .heroText h1 {
+        position: absolute;
+        left: 20px;
+        top: 70px;
+    }
+
+    .heroText p {
+        font-size: 35px;
+        position: absolute;
+        left: 70px;
+        top: 130px;
     }
 
 }
