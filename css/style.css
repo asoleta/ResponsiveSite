@@ -84,6 +84,7 @@ p {
 /* Container */
 .container {
     position: inherit;
+    text-align: center;
 }
 
 /* Header */
@@ -216,6 +217,16 @@ p {
     position: absolute;
     left: 200px;
     top: 210px;
+}
+
+/* 3-column block */
+.row {
+    justify-items: center;
+    padding: 30px;
+}
+
+.threeBlock .columns{
+    display: block;
 }
 
 
