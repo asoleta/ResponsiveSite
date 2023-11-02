@@ -194,6 +194,7 @@ p {
     height: 400px;
     background-size: cover;
     position: relative;
+    z-index:-1;
 }
 
 .heroText h1 {
