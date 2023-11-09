@@ -63,16 +63,12 @@ button {
     background-color: #DA7E21;
     border: none;
     border-radius: 30px;
-    padding: 15px 25px 15px 25px;
+    padding: 15px 25px;
     font-size: 30px;
     font-family: 'Khand', sans-serif;
     font-weight: 600;
     color: white;
-    position: absolute;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: 43%;
-    margin-top: 30px;
+    text-align: center;
 }
 
 p {
@@ -222,12 +218,27 @@ p {
 /* 3-column block */
 .row {
     justify-items: center;
-    padding: 30px;
+    padding: 30px 30px 10px 30px;
 }
 
 .threeBlock .columns{
     display: block;
 }
+
+/* Content Cat */
+#contentCat {
+    background: url(/images/cb1.jpg) no-repeat;
+    height: 500px;
+    background-size: cover;
+}
+
+.catInfo {
+    background: rgba(255, 255, 255, 0.75);
+    width: 550px;
+    padding: 40px 30px 40px 30px;
+    margin: 30px;
+}
+
 
 
 /* Responsiveness */
@@ -284,6 +295,31 @@ p {
         position: absolute;
         left: 70px;
         top: 130px;
+    }
+
+    .homeBtn .row {
+        padding: 10px;
+    }
+
+    .catInfo h4 {
+        font-size: 30px;
+    }
+
+    .catInfo p {
+        font-size: 15px;
+    }
+
+    #contentCat {
+        background: url(/images/cb1.jpg) no-repeat;
+        height: 500px;
+        background-size: cover;
+        background-position-x: -400px;
+    }
+
+    .catInfo {
+        background: rgba(255, 255, 255, 0.75);
+        padding: 40px 30px 40px 30px;
+        width: 300px;
     }
 
 }
