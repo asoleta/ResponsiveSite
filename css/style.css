@@ -239,6 +239,30 @@ p {
     margin: 30px;
 }
 
+/* Contact Form */
+form {
+    padding: 50px;
+}
+
+form h2 {
+    text-align: center;
+}
+
+.messageContainer {
+    text-align: center;
+}
+
+.messageContainer textarea {
+    width: 1000px;
+    height: 300px;
+}
+
+.submitContainer {
+    display: flex;
+    justify-content: center;
+    gap: 680px;
+}
+
 /* Footer */
 /* Footer */
 footer {
@@ -353,6 +377,32 @@ footer {
         background: rgba(255, 255, 255, 0.75);
         padding: 40px 30px 40px 30px;
         width: 300px;
+    }
+
+    /* Form */
+    form {
+        padding: 10px;
+    }
+    
+    form h2 {
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    .messageContainer {
+        text-align: center;
+    }
+    
+    .messageContainer textarea {
+        width: 300px;
+        height: 100px;
+    }
+    
+    .submitContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
     }
 
     /* Footer */
